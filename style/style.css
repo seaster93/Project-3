@@ -1,0 +1,86 @@
+body
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+    background-color: ivory;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav
+{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li
+{
+    display:inline;
+}
+nav a
+{
+    display:inline-block;
+    padding:20px;
+}
+h1
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+h2
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+h3
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+    text-align: center;
+}
+p
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+    text-align: center;
+}
+ul
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+}
+li
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: red;
+}
+img
+{
+    border:20px solid #ccc;
+    border-width:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+  
+
+iframe
+{
+    max-width: 350px;
+    max-height: 315px;
+    width: 350px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
