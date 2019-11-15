@@ -84,3 +84,37 @@ iframe
     margin-right: auto;
     display: block;
 }
+
+@media screen and (max-width: 800px){
+    width: 100%;
+  }
+
+  nav li{
+    float: none;
+    text-align: center;
+  }
+
+  body, p, li{
+    font-family: Times New Roman;
+  }
+}
+
+@media screen and (min-width: 800px){
+  body{
+    background-color: ivory;
+    color: black;
+  }
+
+  h1{
+    color: red;
+    background-color: blue;
+  }
+    
+  h2{
+     color: red;
+     background-color: blue;
+
+  h3{
+    color: red;
+  }
+}
