@@ -84,4 +84,4 @@ function initMap() {
           ]
         });
       }
-window.addEventListener('load',initMap);
+
