@@ -78,20 +78,6 @@ iframe
     display: block;
 }
 
-@media screen and (max-width: 800px){
-    width: 100%;
-  }
-
-  nav li{
-    float: none;
-    text-align: center;
-  }
-
-  body, p, li{
-    font-family: Times New Roman;
-  }
-}
-
 @media screen and (min-width: 800px){
   body{
     background-color: ivory;
