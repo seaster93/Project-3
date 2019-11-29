@@ -1,193 +1,189 @@
-#map{
-    height: 100%:
+  #map {
+  height: 100%:
 }
 
-body
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
-    background-color: ivory;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-nav
-{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-nav li
-{
-    display:inline;
-}
-nav a
-{
-    display:inline-block;
-    padding:20px;
-}
-h1
-{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: blue;
-    text-align: center;
-    font-weight: bold;
-}
-h2
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
-    text-align: center;
-    font-weight: bold;
-}
-h3
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
-    text-align: center;
-}
-p
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
-    text-align: center;
-}
-ul
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
-}
-li
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: red;
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+  background-color: ivory;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-iframe
-{
-    max-width: 350px;
-    max-height: 315px;
-    width: 350px;
-    height: 315px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-@media screen and (min-width: 800px){
-  body{
-    background-color: ivory;
-    color: black;
-  }
-
-  h1{
-    color: red;
-    background-color: blue;
-  }
-    
-  h2{
-     color: red;
-     background-color: blue;
-
-  h3{
-    color: red;
-  }
-}
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+nav li {
+  display: inline;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+nav a {
   display: inline-block;
-  transition: background-color 0.6s ease;
+  padding: 20px;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+  text-align: center;
+  font-weight: bold;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+  text-align: center;
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+  text-align: center;
 }
+
+ul {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+}
+
+li {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: red;
+}
+
+iframe {
+  max-width: 350px;
+  max-height: 315px;
+  width: 350px;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: ivory;
+    color: black;
+  }
+  h1 {
+    color: red;
+    background-color: blue;
+  }
+  h2 {
+    color: red;
+    background-color: blue;
+    h3 {
+      color: red;
+    }
+  }
+  * {
+    box-sizing: border-box
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
